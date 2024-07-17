@@ -88,7 +88,7 @@ public class TestCases {
     }
 
     @Test
-    public void testcase01() throws InterruptedException {
+    public void testCase01() throws InterruptedException {
         System.out.println("Start test case 01");
         try {
             driver.get("https://www.flipkart.com/");
@@ -118,7 +118,7 @@ public class TestCases {
     }
 
     @Test
-    public void testcase02() throws InterruptedException {
+    public void testCase02() throws InterruptedException {
         System.out.println("Start test case 02");
         driver.get("https://www.flipkart.com/");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -145,7 +145,7 @@ public class TestCases {
     }
 
     @Test
-    public void testcase03() throws InterruptedException {
+    public void testCase03() throws InterruptedException {
         try{
         System.out.println("Start test case 03");
         driver.get("https://www.flipkart.com/");
